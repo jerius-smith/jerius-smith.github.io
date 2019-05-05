@@ -109,6 +109,118 @@ header small {
     border-top-width: thin;
 }
 
+@media screen and (max-width: 850px) {
+    body,html {
+        background-color: #1b1f21;
+        background-image: url("../res/cityscape_bg.jpg");
+        background-size: cover;
+        margin:0;
+        padding:0;
+        position: relative;
+        height: 100%;
+    }
+    .topnav {
+        background-color: #41586d;
+        font-family: Inconsolata, "Courier New", monospace;
+        text-align: right;
+        color: whitesmoke;
+        margin: 0;
+        padding-right: 10%;
+        padding-bottom: 5px;
+    }
+    .topnav a {
+        color: #a4d8f2;
+        padding-right: 12px;
+        padding-left: 12px;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+
+    .topnav a.active {
+        color: white;
+        padding-right: 12px;
+        padding-left: 12px;
+        text-decoration: none;
+    }
+
+    .topnav a:hover {
+        color: white;
+        background-color: #a4d8f2;
+    }
+
+
+    header {
+        top: 0;
+        background-color: #41586d;
+        font-family: Inconsolata, "Courier New", monospace;
+        color: whitesmoke;
+        margin: 0;
+        display: block;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 5%;
+        border-bottom-color: #a4d8f2;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+
+    }
+    header small {
+        font-size: small;
+        color: #a4d8f2;
+    }
+
+    .bio {
+        display: inline;
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 20%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        background-color: rgba(65, 88, 109, 0.6);
+        width: 80%;
+        height: 40%;
+        border-radius: 10px;
+        border-color: whitesmoke;
+        border-style: solid;
+        border-width: thin;
+        padding-bottom: 4rem;
+    }
+
+    .bio p{
+        font-family: Inconsolata, "Courier New", monospace;
+        text-align:left;
+        color: whitesmoke;
+        float:right;
+        width: 50%;
+        height: 90%;
+        margin-right: 5%;
+    }
+    .bio img{
+        border-color: #a4d8f2;
+        border-width: medium;
+        border-style: solid;
+        float: left;
+        width: 25%;
+        margin-left: 5%;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #41586d;
+        font-family: Inconsolata, "Courier New", monospace;
+        color: whitesmoke;
+        margin: 0;
+        height: 4rem;
+        display: block;
+        text-align: center;
+        border-top: #a4d8f2;
+        border-top-style: solid;
+        border-top-width: thin;
+    }
+}
 
 @media screen and (max-width: 600px) {
     body,html {
@@ -216,110 +328,6 @@ header small {
     }
 }
 
-@media screen and (max-width: 767px) {
-    body,html {
-        background-color: #1b1f21;
-        background-image: url("../res/cityscape_bg_mobile.jpg");
-        background-size: cover;
-        margin:0;
-        padding:0;
-    }
 
-    header {
-        position: fixed;
-        top: 0;
-        background-color: #41586d;
-        font-family: Inconsolata, "Courier New", monospace;
-        color: whitesmoke;
-        margin: 0;
-        height: 13%;
-        width: 100%;
-    }
-    header h1 {
-        margin-bottom: 2%;
-    }
-    header small {
-        font-size: small;
-        color: #a4d8f2;
-    }
-
-    .topnav {
-        position: fixed;
-        font-family: Inconsolata, "Courier New", monospace;
-        text-align: right;
-        color: whitesmoke;
-        margin: 0;
-        width: 90%;
-
-    }
-    .topnav a {
-        color: #a4d8f2;
-        padding-right: 12px;
-        padding-left: 12px;
-        text-decoration: none;
-        border-radius: 4px;
-    }
-
-    .topnav a.active {
-        color: white;
-        padding-right: 12px;
-        padding-left: 12px;
-        text-decoration: none;
-    }
-
-    .topnav a:hover {
-        color: white;
-        background-color: #a4d8f2;
-    }
-
-    .bio {
-        display: block;
-        overflow: visible;
-        position: absolute;
-        margin-left: 5%;
-        margin-top: 40%;
-        padding: 5%;
-        background-color: rgba(65, 88, 109, 0.6);
-        width: 80%;
-        height: 85%;
-        border-radius: 10px;
-    }
-
-    .bio img {
-        border-color: whitesmoke;
-        border-width: medium;
-        border-style: solid;
-        float: top;
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;
-    }
-
-    .bio p{
-        float: bottom;
-        font-family: Inconsolata, "Courier New", monospace;
-        text-align:left;
-        color: whitesmoke;
-        width: 90%;
-        margin-top: 10%;
-        margin-right: 5%;
-    }
-
-    .footer {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        background-color: #41586d;
-        font-family: Inconsolata, "Courier New", monospace;
-        color: whitesmoke;
-        margin: 0;
-        height: 5rem;
-        display: block;
-        text-align: center;
-        border-top: #a4d8f2;
-        border-top-style: solid;
-        border-top-width: thin;
-    }
-}
 
 
