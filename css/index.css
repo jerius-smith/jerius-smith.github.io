@@ -216,4 +216,110 @@ header small {
     }
 }
 
+@media screen and (max-width: 767px) {
+    body,html {
+        background-color: #1b1f21;
+        background-image: url("../res/cityscape_bg_mobile.jpg");
+        background-size: cover;
+        margin:0;
+        padding:0;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        background-color: #41586d;
+        font-family: Inconsolata, "Courier New", monospace;
+        color: whitesmoke;
+        margin: 0;
+        height: 13%;
+        width: 100%;
+    }
+    header h1 {
+        margin-bottom: 2%;
+    }
+    header small {
+        font-size: small;
+        color: #a4d8f2;
+    }
+
+    .topnav {
+        position: fixed;
+        font-family: Inconsolata, "Courier New", monospace;
+        text-align: right;
+        color: whitesmoke;
+        margin: 0;
+        width: 90%;
+
+    }
+    .topnav a {
+        color: #a4d8f2;
+        padding-right: 12px;
+        padding-left: 12px;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+
+    .topnav a.active {
+        color: white;
+        padding-right: 12px;
+        padding-left: 12px;
+        text-decoration: none;
+    }
+
+    .topnav a:hover {
+        color: white;
+        background-color: #a4d8f2;
+    }
+
+    .bio {
+        display: block;
+        overflow: visible;
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 40%;
+        padding: 5%;
+        background-color: rgba(65, 88, 109, 0.6);
+        width: 80%;
+        height: 85%;
+        border-radius: 10px;
+    }
+
+    .bio img {
+        border-color: whitesmoke;
+        border-width: medium;
+        border-style: solid;
+        float: top;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .bio p{
+        float: bottom;
+        font-family: Inconsolata, "Courier New", monospace;
+        text-align:left;
+        color: whitesmoke;
+        width: 90%;
+        margin-top: 10%;
+        margin-right: 5%;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #41586d;
+        font-family: Inconsolata, "Courier New", monospace;
+        color: whitesmoke;
+        margin: 0;
+        height: 5rem;
+        display: block;
+        text-align: center;
+        border-top: #a4d8f2;
+        border-top-style: solid;
+        border-top-width: thin;
+    }
+}
+
 
