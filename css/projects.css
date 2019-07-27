@@ -1,0 +1,56 @@
+.project {
+    display: flow;
+    position: relative;
+    background-color: rgba(65, 88, 109, 0.6);
+    border-radius: 10px;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-width: thin;
+    padding-bottom: 4rem;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    overflow: scroll;
+}
+
+.project p{
+    font-family: Inconsolata, "Courier New", monospace;
+    text-align:left;
+    color: whitesmoke;
+    float:right;
+    width: 50%;
+    height: 90%;
+    margin-right: 5%;
+}
+.project img{
+    border-color: #a4d8f2;
+    border-width: medium;
+    border-style: solid;
+    float: left;
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.project h2{
+    color: whitesmoke;
+    text-align: center ;
+    font-family: Inconsolata, monospace;
+}
+.project h4{
+    color: whitesmoke;
+    text-align: center ;
+    font-family: Inconsolata, monospace;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}

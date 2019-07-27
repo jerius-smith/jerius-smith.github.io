@@ -2,6 +2,8 @@ body,html {
     background-color: #1b1f21;
     background-image: url("../res/cityscape_bg.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin:0;
     padding:0;
     position: relative;
@@ -50,6 +52,8 @@ header {
     border-bottom-color: #a4d8f2;
     border-bottom-width: 2px;
     border-bottom-style: solid;
+    position: fixed;
+    width:100%;
 
 }
 header small {
@@ -162,6 +166,7 @@ header small {
         border-bottom-color: #a4d8f2;
         border-bottom-width: 2px;
         border-bottom-style: solid;
+        position: fixed;
 
     }
     header small {
