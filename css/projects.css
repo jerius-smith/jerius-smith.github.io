@@ -1,7 +1,7 @@
 .project {
     display: flow;
     position: relative;
-    background-color: rgba(65, 88, 109, 0.6);
+    background-color: rgba(163, 106, 41, 0.6);
     border-radius: 10px;
     border-color: whitesmoke;
     border-style: solid;
@@ -24,7 +24,7 @@
     margin-right: 5%;
 }
 .project img{
-    border-color: #a4d8f2;
+    border-color: #8c6031;
     border-width: medium;
     border-style: solid;
     float: left;
@@ -59,7 +59,7 @@
     .project {
         display: flow;
         position: relative;
-        background-color: rgba(65, 88, 109, 0.6);
+        background-color: rgba(163, 106, 41, 0.6);
         border-radius: 10px;
         border-color: whitesmoke;
         border-style: solid;
@@ -81,7 +81,7 @@
         height: 90%;
     }
     .project img{
-        border-color: #a4d8f2;
+        border-color: #8c6031;
         border-width: medium;
         border-style: solid;
         float: top;

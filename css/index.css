@@ -1,6 +1,6 @@
 body,html {
-    background-color: #1b1f21;
-    background-image: url("../res/cityscape_bg.jpg");
+    background-color: #c7a27b;
+    background-image: url("../res/IMG_9637-Edit.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -10,7 +10,7 @@ body,html {
     height: 100%;
 }
 .topnav {
-    background-color: #41586d;
+    background-color: #c7a27b;
     font-family: Inconsolata, "Courier New", monospace;
     text-align: right;
     color: whitesmoke;
@@ -19,7 +19,7 @@ body,html {
     padding-bottom: 5px;
 }
 .topnav a {
-    color: #a4d8f2;
+    color: #8c6031;
     padding-right: 12px;
     padding-left: 12px;
     text-decoration: none;
@@ -35,13 +35,13 @@ body,html {
 
 .topnav a:hover {
     color: white;
-    background-color: #a4d8f2;
+    background-color: #8c6031;
 }
 
 
 header {
     top: 0;
-    background-color: #41586d;
+    background-color: #c7a27b;
     font-family: Inconsolata, "Courier New", monospace;
     color: whitesmoke;
     margin: 0;
@@ -49,7 +49,7 @@ header {
     padding-top: 1px;
     padding-bottom: 1px;
     padding-left: 5%;
-    border-bottom-color: #a4d8f2;
+    border-bottom-color: #8c6031;
     border-bottom-width: 2px;
     border-bottom-style: solid;
     position: fixed;
@@ -58,7 +58,7 @@ header {
 }
 header small {
     font-size: small;
-    color: #a4d8f2;
+    color: #8c6031;
 }
 
 .bio {
@@ -69,7 +69,7 @@ header small {
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
-    background-color: rgba(65, 88, 109, 0.6);
+    background-color: rgba(163, 106, 41, 0.6);
     width: 80%;
     height: 40%;
     border-radius: 10px;
@@ -89,7 +89,7 @@ header small {
     margin-right: 5%;
 }
 .bio img{
-    border-color: #a4d8f2;
+    border-color: #8c6031;
     border-width: medium;
     border-style: solid;
     float: left;
@@ -101,22 +101,22 @@ header small {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #41586d;
+    background-color: #c7a27b;
     font-family: Inconsolata, "Courier New", monospace;
     color: whitesmoke;
     margin: 0;
     height: 4rem;
     display: block;
     text-align: center;
-    border-top: #a4d8f2;
+    border-top: #8c6031;
     border-top-style: solid;
     border-top-width: thin;
 }
 
 @media screen and (max-width: 850px) {
     body,html {
-        background-color: #1b1f21;
-        background-image: url("../res/cityscape_bg.jpg");
+        background-color: #c7a27b;
+        background-image: url("../res/IMG_9637-Edit.jpg");
         background-size: cover;
         margin:0;
         padding:0;
@@ -124,7 +124,7 @@ header small {
         height: 100%;
     }
     .topnav {
-        background-color: #41586d;
+        background-color: #c7a27b;
         font-family: Inconsolata, "Courier New", monospace;
         text-align: right;
         color: whitesmoke;
@@ -133,7 +133,7 @@ header small {
         padding-bottom: 5px;
     }
     .topnav a {
-        color: #a4d8f2;
+        color: #8c6031;
         padding-right: 12px;
         padding-left: 12px;
         text-decoration: none;
@@ -149,13 +149,13 @@ header small {
 
     .topnav a:hover {
         color: white;
-        background-color: #a4d8f2;
+        background-color: #8c6031;
     }
 
 
     header {
         top: 0;
-        background-color: #41586d;
+        background-color: #c7a27b;
         font-family: Inconsolata, "Courier New", monospace;
         color: whitesmoke;
         margin: 0;
@@ -163,7 +163,7 @@ header small {
         padding-top: 1px;
         padding-bottom: 1px;
         padding-left: 5%;
-        border-bottom-color: #a4d8f2;
+        border-bottom-color: #8c6031;
         border-bottom-width: 2px;
         border-bottom-style: solid;
         position: fixed;
@@ -171,7 +171,7 @@ header small {
     }
     header small {
         font-size: small;
-        color: #a4d8f2;
+        color: #8c6031;
     }
 
     .bio {
@@ -202,7 +202,7 @@ header small {
         margin-right: 5%;
     }
     .bio img{
-        border-color: #a4d8f2;
+        border-color: #8c6031;
         border-width: medium;
         border-style: solid;
         float: left;
@@ -214,14 +214,14 @@ header small {
         position: fixed;
         bottom: 0;
         width: 100%;
-        background-color: #41586d;
+        background-color: #c7a27b;
         font-family: Inconsolata, "Courier New", monospace;
         color: whitesmoke;
         margin: 0;
         height: 4rem;
         display: block;
         text-align: center;
-        border-top: #a4d8f2;
+        border-top: #8c6031;
         border-top-style: solid;
         border-top-width: thin;
     }
@@ -229,7 +229,7 @@ header small {
 
 @media screen and (max-width: 600px) {
     body,html {
-        background-color: #1b1f21;
+        background-color: #c7a27b;
         background-image: url("../res/cityscape_bg_mobile.jpg");
         background-size: cover;
         margin:0;
@@ -239,7 +239,7 @@ header small {
     header {
         position: fixed;
         top: 0;
-        background-color: #41586d;
+        background-color: #c7a27b;
         font-family: Inconsolata, "Courier New", monospace;
         color: whitesmoke;
         margin: 0;
@@ -251,7 +251,7 @@ header small {
     }
     header small {
         font-size: small;
-        color: #a4d8f2;
+        color: #8c6031;
     }
 
     .topnav {
@@ -264,7 +264,7 @@ header small {
 
     }
     .topnav a {
-        color: #a4d8f2;
+        color: #8c6031;
         padding-right: 12px;
         padding-left: 12px;
         text-decoration: none;
@@ -280,7 +280,7 @@ header small {
 
     .topnav a:hover {
         color: white;
-        background-color: #a4d8f2;
+        background-color: #8c6031;
     }
 
     .bio {
@@ -320,14 +320,14 @@ header small {
         position: fixed;
         bottom: 0;
         width: 100%;
-        background-color: #41586d;
+        background-color: #c7a27b;
         font-family: Inconsolata, "Courier New", monospace;
         color: whitesmoke;
         margin: 0;
         height: 5rem;
         display: block;
         text-align: center;
-        border-top: #a4d8f2;
+        border-top: #8c6031;
         border-top-style: solid;
         border-top-width: thin;
     }
